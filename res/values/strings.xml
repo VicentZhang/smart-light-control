@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LightCtrl</string>
+
+    <!-- LightListActivity -->
+    <string name="button_add">添加</string>
+    <string name="button_exit">退出</string>
+    <string name="button_power_text_on">开灯</string>
+    <string name="button_power_text_off">关灯</string>
+    <string name="operation_choice">请选择操作</string>
+    <string name="operation_edit">编辑</string>
+    <string name="operation_delete">删除</string>
+    <string name="image_view_power_state_cont_desc">This is an image view displaying the power state of a light</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">搜索设备</string>
+    <string name="select_device">选择要连接的设备</string>
+    <string name="none_paired">没有已配对的设备</string>
+    <string name="none_found">没有找到其它设备</string>
+    <string name="title_paired_devices">已配对设备</string>
+    <string name="title_other_devices">其它可连接的设备</string>
+    <string name="button_scan">搜索设备</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">连接设备-安全</string>
+    <string name="insecure_connect">连接设备-非安全</string>
+    <string name="discoverable">可被其它设备发现</string>
+
+    <!-- Toast for bluetooth -->
+    <string name="not_connected">您还没有连接到任何设备</string>
+    <string name="bt_not_enabled_leaving">蓝牙不可用，即将退出程序</string>
+    <string name="title_connecting">连接中</string>
+    <string name="title_connected_to">已连接</string>
+    <string name="title_not_connected">无连接</string>
+
+    <!-- Toast for database -->
+    <string name="db_not_enabled_leaving">数据库不可用，即将退出程序</string>
+
+</resources>
